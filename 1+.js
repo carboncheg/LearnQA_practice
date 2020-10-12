@@ -1,4 +1,4 @@
-const XMLHttpRequest = require('xhr2');
+const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
 const http = new XMLHttpRequest(),
     url = 'https://worldtimeapi.org/api/timezone/Asia/Yekaterinburg';
