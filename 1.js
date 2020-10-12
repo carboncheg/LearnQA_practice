@@ -5,10 +5,10 @@ let date = new Date(),
 if (hour >= 0 && hour <= 4) {
     console.log(`Доброй ночи, ${username}`);
 }
-if (hour >= 5 && hour <= 9) {
+else if (hour >= 5 && hour <= 9) {
     console.log(`Доброе утро, ${username}`);
 }
-if (hour >= 10 && hour <= 16) {
+else if (hour >= 10 && hour <= 16) {
     console.log(`Добрый день, ${username}`);
 }
 else {
