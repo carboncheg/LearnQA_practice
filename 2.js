@@ -32,7 +32,7 @@ function showOddOrEven() {
 showOddOrEven();
 
 
-function showOddOrEven() {
+function showText() {
     let text = prompt('Введите текст');
     let numMaxText = prompt('Введите максимально допустимую длину текста', 25);
     let textLength = text.length;
@@ -42,4 +42,4 @@ function showOddOrEven() {
             break;
     }
 }
-showOddOrEven();
+showText();
